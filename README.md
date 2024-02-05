@@ -1,1 +1,47 @@
 # citation-network
+
+
+## Terminology
+
+- **Source Publication (Source):** EPA funded research chosen for scraping citations.
+- **Target:** Citations used in the source publication.
+
+## Graphs
+
+In mathematics, graph theory studies graphs, mathematical structures used to model pairwise relations between objects. A graph consists of vertices (nodes/points) connected by edges (links/lines). Graphs can be undirected (symmetric edges) or directed (asymmetric edges).
+
+**Question for Consideration:**
+- If the graph is Hamiltonian complete, what does it imply for our bibliometric network? (Hamiltonian cycle checker algorithm exists for Python.)
+
+## Key Network Analysis Concepts
+
+Understanding network analysis involves various concepts:
+
+- **Nodes and Edges:** Basic components of networks.
+- **Clusters:** Groups of related nodes.
+- **Degree:** Number of connections a node has.
+- **Betweenness Centrality:** How influential a node is.
+- **Modularity:** Community structure.
+
+[Learn more in this Gephi Tutorial](https://www.youtube.com/watch?v=gcfAT8aMxuQ)
+
+## Network Visualization and Analysis with Gephi
+
+For a deeper dive, explore this resource from Nodus Labs: [Network Visualization and Analysis with Gephi](https://noduslabs.com/courses/gephi/)
+
+## Centrality Measures
+
+- **Centrality:** A general term for how close a node is to the network.
+- **Degree Centrality:** Number of links connected to a node.
+- **Closeness Centrality:** Average length of the shortest path between the node and all other nodes.
+- **Betweenness Centrality:** Based on the number of times a node is crossed by each of the least cost paths.
+
+## Clustering
+
+- **Clustering Coefficient:** Compares the number of connections to other nodes in a group.
+
+A clustering coefficient of 1 indicates a complete group or clique ([Learn more](https://en.wikipedia.org/wiki/Clustering_coefficient)).
+
+## Research Database
+
+Found a research database at [EPA Research Database :: Environmental Protection Agency Ireland](https://www.epa.ie/publications/research/), though it's less useful than [https://www.epa.ie/publications/research/](https://www.epa.ie/publications/research/).
