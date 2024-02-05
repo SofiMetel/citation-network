@@ -1,5 +1,8 @@
 # citation-network
 
+A citation network is a representation of relationships between academic or research papers based on their citations. In scholarly work, when one paper cites another, it establishes a connection between them. A citation network, therefore, is a graph where each node represents a paper, and directed edges between nodes indicate the direction of citation (i.e., which paper is citing another).
+
+These networks are used in bibliometrics and scientometrics to analyze the flow of information, identify influential papers or authors, and understand the structure of the academic literature within a specific field. The structure of a citation network can reveal patterns of influence, key research topics, and the interconnectedness of scholarly work.
 
 ## Terminology
 
